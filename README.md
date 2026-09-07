@@ -2,13 +2,15 @@
 
 This repository contains the workflow, example metadata, and notebooks for converting trodes recordings to NWB format.
 
+This repo has been created mainly as a reference for labeling and organising format need to
+prepare metadata YAML files and convert recording sessions to NWB using the
+same format and workflow that we currently follow.
+
 The actual NWB conversion is performed using the
 [`LorenFrankLab/trodes_to_nwb`](https://github.com/LorenFrankLab/trodes_to_nwb)
 package.
-
-This repo has been created mainly a reference labeling and organising format need to
-prepare metadata YAML files and convert recording sessions to NWB using the
-same format and workflow that we currently follow.
+Please refer to the original repository for installation instructions and
+details about the conversion package.
 
 ## What is included
 
@@ -54,13 +56,7 @@ including:
 The example YAML in this repository can be used as a starting reference for
 the expected format and naming conventions.
 
-## NWB conversion
 
-NWB creation is performed using the
-[`LorenFrankLab/trodes_to_nwb`](https://github.com/LorenFrankLab/trodes_to_nwb)
-package.
 
-Please refer to the original repository for installation instructions and
-details about the conversion package.
 
 
